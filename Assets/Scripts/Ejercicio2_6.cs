@@ -6,15 +6,15 @@ public class Ejercicio2_6 : MonoBehaviour
 {
     int puntuacion1 = 123;
     int puntuacion2 = 231;
+    int puntuacion3 = 312;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
+        Debug.Log("Puntuacion 1: " + puntuacion1 + " Puntuacion 2: " + puntuacion2 + " Puntuacion 3: " + puntuacion3);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        int resultado= puntuacion1 + puntuacion2 + puntuacion3;
+        int media = resultado / 3;
+        Debug.Log("Media: "+media);
+
     }
 }
