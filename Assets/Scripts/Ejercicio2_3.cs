@@ -10,9 +10,13 @@ public class Ejercicio2_3 : MonoBehaviour
     void Start()
     {
         resultadoMultiplicacion=vidas*exp;
+        Debug.Log(resultadoMultiplicacion);
         resultadoDivision=vidas/exp;
+        Debug.Log(resultadoDivision);
         resultadoDoble = vidas *= 2;
+        Debug.Log(resultadoDoble);
         resultadoTriple = exp *= 3;
+        Debug.Log(resultadoTriple);
         
     }
 
