@@ -34,7 +34,7 @@ public class Apuntes : MonoBehaviour
 
         //Siempre se comienza por los &&(AND), y se continua por el ||(OR), si usas parentesis puedes cambiar el orden.
 
-
+        //if (nivel % 2 == 0) ; Con esto hacemos una division que te da el resto, y se puede usar para comprobar si algo es par.
 
 
     }
