@@ -7,7 +7,7 @@ public class Apuntes : MonoBehaviour
     //Variables Globales. Las que nombras en la clase.
     //[SerializeField] int vida = 5; con esta funcion podemos verlo sin que sea publico. Si serializamos no le ponemos valor. Ya que se muestra por el inspector.
 
-   [SerializeField] bool carnetConducir;
+   //[SerializeField] bool carnetConducir;
 
 
 
@@ -16,6 +16,7 @@ public class Apuntes : MonoBehaviour
 
     void Start()
     {
+        int vidas = 100;
         // int resultado1= SumarNumeros(1,2);
         //int resultado2= sumarNumeros(3,4);
         // int resultadoUnico= resultado1 + resultado2;
@@ -23,18 +24,23 @@ public class Apuntes : MonoBehaviour
         //int resultado = SumarDosNumeros(8,9);//Llamada del metodo
         //Debug.Log(resultado);
         
-        if (carnetConducir == true)
-        {
-            Debug.Log("Puedes Conducir");
-        }
-        else
-        {
-            Debug.Log("A donde vas loco");
-        }
+        //if (carnetConducir == true)
+        //{
+        //    Debug.Log("Puedes Conducir");
+        //}
+        //else
+        //{
+        //    Debug.Log("A donde vas loco");
+        //}
 
         //Siempre se comienza por los &&(AND), y se continua por el ||(OR), si usas parentesis puedes cambiar el orden.
 
         //if (nivel % 2 == 0) ; Con esto hacemos una division que te da el resto, y se puede usar para comprobar si algo es par.
+
+        while (vidas > 0)
+        {
+            Debug.Log("Sigo vivo");
+        }
 
 
     }
