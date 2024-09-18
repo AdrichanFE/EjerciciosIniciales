@@ -16,7 +16,7 @@ public class Apuntes : MonoBehaviour
 
     void Start()
     {
-        int vidas = 100;
+        //int vidas = 100;
         // int resultado1= SumarNumeros(1,2);
         //int resultado2= sumarNumeros(3,4);
         // int resultadoUnico= resultado1 + resultado2;
@@ -37,11 +37,24 @@ public class Apuntes : MonoBehaviour
 
         //if (nivel % 2 == 0) ; Con esto hacemos una division que te da el resto, y se puede usar para comprobar si algo es par.
 
-        while (vidas > 0)
-        {
-            Debug.Log("Sigo vivo");
-        }
+        //while (vidas > 0)
+        //{
+        //    Debug.Log("Sigo vivo");
+        //}
 
+        //BUCLE FOR
+        //for (int i = 0; i < 10; i++) //El numero que se pone despues de la segunda i es el numero de vueltas que va a realizar el bucle.
+
+        for (int niveles = 0;niveles < 5; niveles++)
+        {
+            for(int rondas = 0; rondas < 10; rondas++)
+            {
+                for (int enemigos = 0; enemigos < 10; enemigos++)
+                {
+                    Debug.Log("Sale el enemigo " + enemigos + ", de la ronda " + rondas + ", del nivel " + niveles);
+                }
+            }
+        }
 
     }
 
