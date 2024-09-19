@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercico1_1 : MonoBehaviour
+public class Ejercicio1_1 : MonoBehaviour
 {
     //Declarar variables. Tipo, Nombre y Valor.
     //public int vida = 5;
