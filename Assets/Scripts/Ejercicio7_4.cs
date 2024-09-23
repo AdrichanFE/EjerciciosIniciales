@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Ejercicio7_4 : MonoBehaviour
 {
-    int numero = 101;
+    int numero = 0;
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 100; i < numero; i--)
+        for (int i = 100; i > numero; i--)
         {
             Debug.Log(i);
         }
