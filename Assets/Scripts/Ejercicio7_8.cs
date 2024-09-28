@@ -9,17 +9,17 @@ public class Ejercicio7_8 : MonoBehaviour
     void Start()
     {
 
-        if (numero1 < numero2)
+        if (numero1 %2==0 && numero1<numero2)
         {
-            for (numero1 = numero1; numero1 < numero2; numero1++)
+            for (numero1 = numero1; numero1 < numero2; numero1%=2)
             {
                 Debug.Log(numero1);
 
             }
         }
-        else if (numero2 < numero1)
+        else if (numero2 % 2 == 0 && numero2 < numero1)
         {
-            for (numero2 = numero2; numero2 < numero1; numero2++)
+            for (numero2 = numero2; numero2 < numero1; numero2%=2)
             {
                 Debug.Log(numero2);
             }
