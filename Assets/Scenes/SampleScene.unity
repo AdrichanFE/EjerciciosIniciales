@@ -1128,6 +1128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 927831036}
   - component: {fileID: 927831035}
+  - component: {fileID: 927831037}
   - component: {fileID: 927831034}
   m_Layer: 0
   m_Name: Protagonista2
@@ -1215,6 +1216,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &927831037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927831033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d671610750b7af44a98b02bf59be8e90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaInicial: 375
 --- !u!1 &974901037
 GameObject:
   m_ObjectHideFlags: 0
@@ -2282,6 +2296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976333695}
   - component: {fileID: 1976333694}
+  - component: {fileID: 1976333696}
   - component: {fileID: 1976333693}
   m_Layer: 0
   m_Name: Protagonista1
@@ -2369,6 +2384,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976333696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976333692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d671610750b7af44a98b02bf59be8e90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaInicial: 450
 --- !u!1 &2036740312
 GameObject:
   m_ObjectHideFlags: 0

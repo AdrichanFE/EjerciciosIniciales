@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Protagonista : MonoBehaviour
 {
+
     float vida;
     float exp;
     string nombre;
